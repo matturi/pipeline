@@ -1,23 +1,7 @@
 pipeline {
 	agent any
 	stages {
-		stage ('build') {
-			...
+	     steps ('build') {
+	                }
 		}
-		stage ('test: integration-&-quality') {
-			...
-		}
-		stage ('test: functional') {
-			...
-		}
-		stage ('test: load-&-security') {
-			...
-		}
-		stage ('approval') {
-			...
-		}
-		stage ('deploy:prod') {
-			...
-		}
-	}
 }
